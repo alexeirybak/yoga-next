@@ -136,7 +136,7 @@ export const Register: React.FC<RegisterProps> = ({
         <div>
           <div className="flex flex-row flex-wrap justify-end">
             <Image
-              src="/logo.png"
+              src="/logo.svg"
               alt="logo"
               width={220}
               height={35}

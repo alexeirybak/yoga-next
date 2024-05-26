@@ -56,7 +56,7 @@ export default function ResetPasswordPage() {
         <div className="modalContentProgress w-[460px]">
           <div className="relative"></div>
           <Image
-            src="/logo.png"
+            src="/logo.svg"
             alt="logo"
             width={220}
             height={35}

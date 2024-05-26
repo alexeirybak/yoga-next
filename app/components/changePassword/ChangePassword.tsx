@@ -92,7 +92,7 @@ export const NewPassword: React.FC<NewPasswordProps> = ({
             &#10060;
           </button>
           <Image
-            src="/logo.png"
+            src="/logo.svg"
             alt="logo"
             width={220}
             height={35}

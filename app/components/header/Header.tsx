@@ -95,7 +95,7 @@ export const Header: React.FC = () => {
     <header className="max-w-[1440px] flex flex-row gap-x-10 justify-between align-center px-[16px] lg:px-[140px] mb-[40px] md:mb-[60px] pt-12 mx-auto">
       <div className="flex flex-col gap-y-5">
         <Link href={`/`}>
-          <Image src="/logo.png" alt="logo" width={220} height={35} />
+          <Image src="/logo.svg" alt="logo" width={220} height={35} />
         </Link>
         {!shouldHideParagraph && (
           <p className="text-black text-base leading-loose md:text-[18px] hidden md:block">
