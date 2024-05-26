@@ -65,9 +65,9 @@ export default async function CourseDescription({ params: { id } }: Props) {
           {courseData?.reasons.map((reason: string, index: number) => (
             <li
               key={index}
-              className="p-[20px] rounded-[28px] flex flex-row flex-nowrap gap-x-6 items-center w-full bgReasons"
+              className="p-5 rounded-[28px] flex flex-row flex-nowrap gap-x-6 items-center w-full bgReasons"
             >
-              <p className="py-[20px] text-[75px] text-custom-lime">
+              <p className="py-5 text-[75px] text-custom-lime">
                 {index + 1}
               </p>
               <p>{reason}</p>

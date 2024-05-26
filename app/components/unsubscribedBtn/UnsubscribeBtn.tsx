@@ -11,7 +11,7 @@ export const UnsubscribeButton: React.FC<UnsubscribeButtonProps> = ({
 }) => {
   return (
     <button
-      className="absolute top-[20px] right-[20px] flex items-center justify-center md:text-[18px]"
+      className="absolute top-5 right-5 flex items-center justify-center md:text-[18px]"
       onClick={handleUnsubscribe}
     >
       <Image
